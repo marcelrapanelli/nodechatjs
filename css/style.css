@@ -1,0 +1,134 @@
+html, body{
+  font-family: Arial, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:#302F31;
+  padding:10px;
+}
+
+form{
+  margin:15px 0;
+}
+form input[type='text']{
+  border:2px dotted #BF09CC;
+  border-radius: 5px;
+  padding:5px;
+  width:75%;
+}
+form input[type='submit']{
+  background: #BF09CC;
+  border:none;
+  border-radius: 5px;
+  color:white;
+  cursor:pointer;
+  font-weight: bold;
+  padding:7px 5px;
+  width:19%;
+}
+.chat_title{
+  color:white;
+  text-align: center;
+  font-family: Calibri Light;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+#historico_mensagens{
+  background: #FFF;
+  border:2px dotted #BF09CC;
+  height: 550px;
+  float:left;
+  margin-bottom: 10px;
+  width:75%;
+}
+
+#lista_usuarios{
+  background: #FFF;
+  font-size: 20px;
+  border:2px dotted #BF09CC;
+  height: 550px;
+  float:left;
+  margin-bottom: 10px;
+  margin-right:1%;
+  width:75%;
+}
+
+#sala_chat{
+  display: none;
+}
+#acesso_usuario{
+  border-radius: 8px;
+  height:80px;
+  left:50%;
+  margin-left:-160px;
+  margin-top:-15px;
+  position: fixed;
+  top:50%;
+  width:330px;
+}
+#acesso_usuario form{
+  margin:0;
+}
+
+#historico_mensagens{
+  border-right: 0;
+}
+#lista_usuarios{
+border-left: 1px solid #45C5BF;
+  height: 554px;
+  width: 20%;
+}
+
+#historico_mensagens .sistema{
+  background-color: #45C5BF;
+  color: #FFF;
+  font-weight: bold;
+}
+
+#historico_mensagens .privada{
+  background-color: #CCC;
+  color: #000;
+  font-weight: bold;
+}
+
+.nfhead{
+  color: white;
+  margin-top: 7%;
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+}
+
+.notfound{
+  color: white;
+  margin-top: 1%;
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+}
+
+.nfdescription{
+  color: white;
+  margin-top: 1%;
+  font-family: arial;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nfdivbutton{
+  color: white;
+  margin-top: 2.5%;
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+.links{
+  text-decoration: none;
+  background: white;
+  color: #302F31;
+  border: 1px solid white;
+  padding:1%;
+}
